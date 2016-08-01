@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <com.example.success.widget.PKHeadView
+        xmlns:my="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:leftImage="@drawable/icon_back"
+        my:rightText="保存"
+        my:title="玄 .." />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:padding="10dp" >
+
+        <EditText
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:gravity="top|left"
+            android:hint="成功倒计时 .."
+            android:padding="10dp"
+            android:textColor="@color/font" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/G:/studioWorkSpace/Success/app/src/main/res/layout/activity_notedetail.xml -->

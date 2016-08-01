@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/G:/studioWorkSpace/Success/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="bg_common">#f2f2f2</color>
+    <color name="bg_gray">#b3b3b3</color>
+    <color name="black">#000000</color>
+    <color name="font">#333333</color>
+    <color name="global">#fffe618c</color>
+    <color name="global_center">#99fe618c</color>
+    <color name="global_tr">#55fe618c</color>
+    <color name="gray">#838383</color>
+    <color name="gray0">#F2F2F2</color>
+    <color name="gray1">#EDEDED</color>
+    <color name="gray2">#EAE8E9</color>
+    <color name="gray3">#DBDBDB</color>
+    <color name="gray4">#999999</color>
+    <color name="gray5">#666666</color>
+    <color name="gray6">#464646</color>
+    <color name="red">#ff0000</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="HeadView"><attr format="string" name="leftText"/><attr format="reference" name="leftImage"/><attr format="string" name="title"/><attr format="string" name="rightText"/><attr format="reference" name="rightImage"/><attr format="reference|color" name="background"/><attr format="dimension" name="height"/></declare-styleable>
+    <declare-styleable name="RoundedImageView"><attr format="dimension" name="corner_radius"/><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/><attr format="boolean" name="round_background"/><attr format="boolean" name="is_oval"/><attr name="android:scaleType"/></declare-styleable>
+    <!-- From: file:/G:/studioWorkSpace/Success/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Success</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/G:/studioWorkSpace/Success/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="divider_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.01dp</item>
+        <item name="android:background">#dbdbdb</item>
+    </style>
+    <style name="divider_vertical">
+        <item name="android:layout_width">0.01dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#dbdbdb</item>
+    </style>
+    <style name="occupy">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="transparent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

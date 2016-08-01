@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <com.example.success.widget.PKHeadView
+        xmlns:my="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        my:leftImage="@drawable/icon_back"
+        my:rightImage="@drawable/icon_add"
+        my:title="此时无关风月 .." />
+
+    <com.example.success.widget.NoteListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null" />
+
+</LinearLayout><!-- From: file:/G:/studioWorkSpace/Success/app/src/main/res/layout/activity_notelist.xml -->
